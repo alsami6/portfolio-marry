@@ -47,17 +47,62 @@ body {
   padding: 18px 35px;
 }
 
-.header {
+header {
   background-color: #fff8f3;
+  background-image: url("../images/header_bg.png");
+  background-repeat: no-repeat;
+  background-position: bottom right;
 }
 
 .baner {
-  padding: 30px 30px 30px 150px;
+  padding: 30px 30px 0px 150px;
   display: flex;
   align-items: center;
+  justify-content: space-between;
 }
 
 .profile-hardy {
   width: 500px;
   height: 600px;
+}
+
+.baner-greating {
+  font-size: 45px;
+  color: #474747;
+}
+.baner-title {
+  font-size: 85px;
+  font-weight: 700;
+  margin-top: 5px;
+  margin-bottom: 20px;
+}
+.bds {
+  margin-bottom: 30px;
+  font-family: Open Sans;
+  color: #757575;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  max-width: 585px;
+}
+
+.about {
+  padding: 131px;
+  border-radius: 10px;
+  background: #fff8f3;
+  margin: 130px 0;
+}
+
+.section-title {
+  color: #181818;
+  text-align: center;
+  font-family: Open Sans;
+  font-size: 35px;
+  font-weight: 700;
+}
+
+.des {
+  color: var(--Dark-03, #757575);
+  text-align: center;
+  font-size: 18px;
 }
