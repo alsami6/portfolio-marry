@@ -1,5 +1,6 @@
 nav > ul {
   display: flex;
+  align-items: center;
 }
 nav li {
   list-style: none;
@@ -8,6 +9,12 @@ nav li {
 nav a {
   text-decoration: none;
   color: #181818;
+}
+nav {
+  justify-content: space-between;
+  display: flex;
+  align-items: center;
+  margin: 0px 150px;
 }
 
 body {
@@ -34,8 +41,23 @@ body {
   font-style: normal;
   font-weight: 700;
   line-height: normal;
-  background-color: #FD6E0A;
+  background-color: #fd6e0a;
   border: none;
-  border-radius:3px ;
-  padding: 18px 35px
+  border-radius: 5px;
+  padding: 18px 35px;
+}
+
+.header {
+  background-color: #fff8f3;
+}
+
+.baner {
+  padding: 30px 30px 30px 150px;
+  display: flex;
+  align-items: center;
+}
+
+.profile-hardy {
+  width: 500px;
+  height: 600px;
 }
