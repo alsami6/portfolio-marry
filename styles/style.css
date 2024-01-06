@@ -1,0 +1,41 @@
+nav > ul {
+  display: flex;
+}
+nav li {
+  list-style: none;
+  margin-right: 50px;
+}
+nav a {
+  text-decoration: none;
+  color: #181818;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+.portfolio-main-heading {
+  color: #181818;
+  font-family: Open Sans;
+  font-size: 45px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+
+#spid {
+  color: #fd6e0a;
+}
+
+.citem {
+  color: #fff;
+  font-family: Open Sans;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  background-color: #FD6E0A;
+  border: none;
+  border-radius:3px ;
+  padding: 18px 35px
+}
